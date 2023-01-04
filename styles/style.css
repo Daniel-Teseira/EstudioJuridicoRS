@@ -2,9 +2,10 @@
     --bg-body-color: rgb(62, 62, 62);
 }
 
+/* 
 .navbar{
     background-color: black;
-}
+} */
 
 
 .cuerpo{
@@ -15,9 +16,9 @@
     width: 100vw;
 }
 
-/* .cuerpo img{
-    height: 100%;
-    width: rem;
+.cuerpo img{
+    /* height: 100%; */
+    width: 100%;
     position: relative
-} */
+}
 
