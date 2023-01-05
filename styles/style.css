@@ -7,6 +7,7 @@
 .navbar{
     background-color: black;
 } */
+
 body{
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
@@ -22,6 +23,11 @@ body{
 
 .cards{
     background-color: var(--bg-body-color);
+}
+
+.card:hover{
+  transform: scale(1.1);
+  transition: all 0.5s;
 }
 
 .card{
@@ -80,8 +86,12 @@ a:-webkit-any-link {
   }
   .pie-pagina .grupo-1 .box p{
     color: #FFE7F5;
-    margin-bottom: 10px;
   }
+
+  .pie-pagina .grupo-1 .red-social{
+    width: auto;    
+  }
+
   .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
     /* align-items: center; */
