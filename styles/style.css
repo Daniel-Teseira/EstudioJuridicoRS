@@ -1,5 +1,6 @@
 :root{
-    --bg-body-color: rgb(62, 62, 62);
+    --bg-body-color: rgb(30,30,30);
+    --bg-card-color: rgb(126, 126, 126);
 }
 
 /* 
@@ -13,15 +14,50 @@ body{
 }
 
 .cuerpo{
-    padding: 10rem 10rem 0rem 10rem;
+    padding: 5rem 10rem 0rem 10rem;
     /* background-color: var(--bg-body-color); */
     height: 100%;
     width: 100%;
 }
 
-.carrusel svg{
-    /* height: 100%; */
-    width: 80%; 
+.cards{
+    background-color: var(--bg-body-color);
+}
+
+.card{
+    background-color: var(--bg-card-color);
+    color: white;    
+    border-radius: 10px;
+    background-image: linear-gradient(rgb(92, 92, 92), rgb(44, 44, 44), rgb(70, 70, 70));
+}
+
+/* .titulos{
+    -webkit-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    font-weight: inherit;
+    padding: 0;
+    line-height: 1.25;
+} */
+
+.cards .card a{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0px 6%;
+    transition: background-size 1s;
+
+    /* font-size: calc(1.359375rem + 1.3125vw); */
+    font-family: "Nunito Sans", sans-serif;
+}
+
+a:hover, a:focus {
+    background-size: 100% 2px;
+}
+
+a:-webkit-any-link {
+    cursor: pointer;
 }
 
 /* .cuerpo img{
