@@ -3,21 +3,17 @@
     --bg-card-color: rgb(126, 126, 126);
 }
 
-/* .naavbaar{
-  background-color: transparent;
-  z-index: 1001;
-  color: white;
-} */
 
 .bg-body-tertiary{
-  --bs-bg-opacity: 0;
-  color: white;
+  --bs-bg-opacity: 0.7;  
+  color: black;
 }
 
 .navbar{
-  --bs-navbar-color: white;
-  --bs-navbar-hover-color: white;
-  --bs-navbar-brand-color: white;
+  --bs-navbar-color: black;
+  --bs-navbar-hover-color: black;
+  --bs-navbar-brand-color: black;
+  z-index: 100;
 }
 
 .dropdown-menu{
@@ -73,7 +69,7 @@ body{
 
 
 
-.card-title{
+.card-title {
     color: white;
     background-image: linear-gradient(currentColor, currentColor);
     background-position: 0% 100%;
@@ -97,16 +93,19 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
-/* .cuerpo img{
-    height: 100%;
-    width: 100%;
-    position: relative
-} */
+ .card img{
+    /* height: 100%;
+    width: 100%; */
+    position: relative;
+}
 
 @media screen and (max-width:992px){
   .cuerpo{
     padding: 5rem 7rem 0rem 7rem;
   } 
+  /* .navbar{
+    position: fixed;    
+  } */
 }
 @media screen and (max-width:768px){
   .cuerpo{
@@ -172,9 +171,9 @@ a:-webkit-any-link {
   .pie-pagina .grupo-1 .red-social .fa-instagram:hover{
     color: rgb(192, 19, 192); 
   }.pie-pagina .grupo-1 .red-social .fa-twitter:hover{
-    color: #0db9fd;
+    color: #9d0dfd;
   }.pie-pagina .grupo-1 .red-social .fa-youtube:hover{
-    color: red;
+    color: rgb(0, 199, 106);
   }
   
   .pie-pagina .grupo-2 small{
