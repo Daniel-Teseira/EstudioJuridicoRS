@@ -3,10 +3,46 @@
     --bg-card-color: rgb(126, 126, 126);
 }
 
-/* 
-.navbar{
-    background-color: black;
+/* .naavbaar{
+  background-color: transparent;
+  z-index: 1001;
+  color: white;
 } */
+
+.bg-body-tertiary{
+  --bs-bg-opacity: 0;
+  color: white;
+}
+
+.navbar{
+  --bs-navbar-color: white;
+  --bs-navbar-hover-color: white;
+  --bs-navbar-brand-color: white;
+}
+
+.dropdown-menu{
+  background-color: rgba(255, 255, 255, 0.616);
+}
+
+.dropdown-menu:after{
+display: block;
+opacity: 0;
+transform: translateY(20px);
+transition: all 1s ease-in;
+visibility: visible;
+}
+
+.dropdown-item{
+  color: black;
+  text-decoration: none; 
+}
+
+.dropdown-item:hover{
+  background-color: transparent; 
+  text-decoration: none; 
+}
+
+
 
 body{
     background: #0f0c29;  /* fallback for old browsers */
@@ -17,8 +53,6 @@ body{
 .cuerpo{
     padding: 5rem 10rem 0rem 10rem;
     /* background-color: var(--bg-body-color); */
-    height: 100%;
-    width: 100%;
 }
 
 .cards{
@@ -69,6 +103,21 @@ a:-webkit-any-link {
     position: relative
 } */
 
+@media screen and (max-width:992px){
+  .cuerpo{
+    padding: 5rem 7rem 0rem 7rem;
+  } 
+}
+@media screen and (max-width:768px){
+  .cuerpo{
+    padding: 5rem 5rem 0rem 5rem;
+  } 
+}
+@media screen and (max-width:576px){
+  .cuerpo{
+    padding: 5rem 2rem 0rem 2rem;
+  } 
+}
 
 /*Footer*/
 .pie-pagina{
@@ -143,3 +192,5 @@ a:-webkit-any-link {
   } */
   
   /*Fin Footer*/
+
+ 
