@@ -20,13 +20,7 @@
   background-color: rgba(255, 255, 255, 0.616);
 }
 
-.dropdown-menu:after{
-display: block;
-opacity: 0;
-transform: translateY(20px);
-transition: all 1s ease-in;
-visibility: visible;
-}
+
 
 .dropdown-item{
   color: black;
@@ -46,19 +40,12 @@ body{
     background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
-.cuerpo{
-    padding: 5rem 10rem 0rem 10rem;
-    /* background-color: var(--bg-body-color); */
-}
+
 
 .cards{
     background-color: var(--bg-body-color);
 }
 
-.card:hover{
-  transform: scale(1.1);
-  transition: all 0.5s;
-}
 
 .card{
     background-color: var(--bg-card-color);
@@ -66,24 +53,12 @@ body{
     border-radius: 10px;
     background-image: linear-gradient(rgb(92, 92, 92), rgb(44, 44, 44), rgb(70, 70, 70));
 }
-
-
-
 .card-title {
-    color: white;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0px 6%;
-    transition: background-size .5s;
-    text-decoration: none;
-    /* font-size: calc(1.359375rem + 1.3125vw); */
-    font-family: "Nunito Sans", sans-serif;
+  color: white;
+  font-family: "Nunito Sans", sans-serif;
 }
 
-.card-title:hover, .card-title:focus {
-    background-size: 100% 2px;
-}
+
 
 a:-webkit-any-link {
     cursor: pointer;
@@ -93,19 +68,45 @@ a:-webkit-any-link {
     text-decoration: none;
 }
 
- .card img{
-    /* height: 100%;
-    width: 100%; */
+.card img{
     position: relative;
 }
-
 @media screen and (max-width:992px){
+.cuerpo{
+  padding: 5rem 7rem 0rem 7rem;
+}
+} 
+
+@media screen and (min-width:993px){
   .cuerpo{
-    padding: 5rem 7rem 0rem 7rem;
-  } 
-  /* .navbar{
-    position: fixed;    
-  } */
+    padding: 5rem 10rem 0rem 10rem;
+  }  
+  .card:hover{
+    transform: scale(1.1);
+    transition: all 0.5s;
+  }  
+  .card-title {
+    color: white;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0px 6%;
+    transition: background-size .5s;
+    text-decoration: none;
+    /* font-size: calc(1.359375rem + 1.3125vw); */
+    font-family: "Nunito Sans", sans-serif;
+  }
+  
+  .card-title:hover, .card-title:focus {
+      background-size: 100% 2px;
+  }
+  .dropdown-menu:after{
+    display: block;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: all 1s ease-in;
+    visibility: visible;
+    }
 }
 @media screen and (max-width:768px){
   .cuerpo{
@@ -142,7 +143,6 @@ a:-webkit-any-link {
 
   .pie-pagina .grupo-1 .red-social a{
     display: inline-block;
-    /* align-items: center; */
     text-decoration: none;
     width: 50px;
     height: 50px;
@@ -179,17 +179,7 @@ a:-webkit-any-link {
   .pie-pagina .grupo-2 small{
     font-size: 15px;
   }
-  
-  
-  /* @media screen and (max-width:800px){
-    .pie-pagina .grupo-1{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap:30px;
-        padding: 35px 0px;
-    }
-  } */
-  
+    
   /*Fin Footer*/
 
  

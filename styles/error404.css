@@ -52,12 +52,12 @@ p{
   /* box-shadow: 5px 5px 5px #7a7b80 ; */
   background: #ffffff00;
   color: white;
-  border-color: black;
+  border-color: white;
 }
 
 .btn:hover{
   /* box-shadow: 5px 5px 5px #302b63; */
   background: #302b6300;
   color: white;
-  border-color: rgb(255, 0, 0);
+  border-color: black;
 }
