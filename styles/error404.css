@@ -1,9 +1,9 @@
 body{
   margin: 0px;
   font-family: Helvetica, sans-serif;
-  background: #0f0c29;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: rgb(100, 100, 100);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgb(100, 100, 100), rgb(189, 189, 189), rgb(100, 100, 100));  /* Chrome 10-25, Safari 5.1-6 */
+  background-image: linear-gradient(rgb(100, 100, 100), rgb(189, 189, 189), rgb(100, 100, 100));
 }
 
 h1{

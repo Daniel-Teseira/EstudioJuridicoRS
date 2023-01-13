@@ -3,7 +3,6 @@
     --bg-card-color: rgb(126, 126, 126);
 }
 
-
 .bg-body-tertiary{
   --bs-bg-opacity: 0.7;  
   color: black;
@@ -20,8 +19,6 @@
   background-color: rgba(255, 255, 255, 0.616);
 }
 
-
-
 .dropdown-item{
   color: black;
   text-decoration: none; 
@@ -32,20 +29,16 @@
   text-decoration: none; 
 }
 
-
-
 body{
     background: #0f0c29;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #24243e, #302b63, #0f0c29);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #24243e, #302b63, #0f0c29); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, #24243e, #302b63, #0f0c29); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-image: linear-gradient(rgb(100, 100, 100), rgb(189, 189, 189), rgb(100, 100, 100));
 }
-
-
 
 .cards{
     background-color: var(--bg-body-color);
 }
-
 
 .card{
     background-color: var(--bg-card-color);
@@ -53,12 +46,11 @@ body{
     border-radius: 10px;
     background-image: linear-gradient(rgb(92, 92, 92), rgb(44, 44, 44), rgb(70, 70, 70));
 }
+
 .card-title {
   color: white;
   font-family: "Nunito Sans", sans-serif;
 }
-
-
 
 a:-webkit-any-link {
     cursor: pointer;
@@ -71,15 +63,16 @@ a:-webkit-any-link {
 .card img{
     position: relative;
 }
+
 @media screen and (max-width:992px){
 .cuerpo{
   padding: 5rem 7rem 0rem 7rem;
-}
+  }
 } 
 
 @media screen and (min-width:993px){
   .cuerpo{
-    padding: 5rem 10rem 0rem 10rem;
+    padding: 3rem 10rem 0rem 10rem;
   }  
   .card:hover{
     transform: scale(1.1);
@@ -106,17 +99,17 @@ a:-webkit-any-link {
     transform: translateY(20px);
     transition: all 1s ease-in;
     visibility: visible;
-    }
+  }
 }
 @media screen and (max-width:768px){
   .cuerpo{
-    padding: 5rem 5rem 0rem 5rem;
-  } 
+    padding: 2rem 5rem 0rem 5rem;
+  }
 }
 @media screen and (max-width:576px){
   .cuerpo{
-    padding: 5rem 2rem 0rem 2rem;
-  } 
+    padding: 2rem 2rem 0rem 2rem;
+  }
 }
 
 /*Footer*/
